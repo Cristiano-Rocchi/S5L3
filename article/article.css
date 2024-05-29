@@ -1,0 +1,30 @@
+article {
+  background-color: #fbf7e3;
+  border-radius: 30px;
+  display: flex;
+  color: #612406;
+}
+article img {
+  padding: 2em;
+}
+#paragrafo {
+  padding-right: 2em;
+  margin-top: 2em;
+}
+@media screen and (max-width: 575px) {
+  article {
+    display: block;
+  }
+
+  article img {
+    padding: unset;
+    width: 100%;
+  }
+
+  #cardParagrafo {
+    padding: 2em;
+  }
+  #testo {
+    margin-bottom: 2em;
+  }
+}
