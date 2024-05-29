@@ -77,30 +77,61 @@
   }
   #descript h4 {
     text-align: center;
-    margin-top: -17px;
-    font-size: 14px;
+    margin-top: -22px;
+    font-size: 18px;
     font-weight: 200;
   }
   #button {
     background-color: #f3df85;
-    width: 8em;
-    height: 1.8em;
+    margin-top: -16px;
+    width: 7.5em;
+    height: 1.4em;
     border-radius: 100px;
     font-size: 1.4em;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+  #button p {
+    font-weight: bold;
+  }
   article {
     display: flex;
     justify-content: center;
   }
   main h1 {
-    font-size: 1.3em;
+    font-size: 1.8em;
   }
   main h2 {
     font-size: 3.5em;
     font-weight: 900;
     margin-bottom: 20px;
+  }
+
+  /* article */
+  #article2 {
+    background-color: #fbf7e3;
+    border-radius: 30px;
+
+    color: #612406;
+  }
+
+  article img {
+    width: 100%;
+  }
+  #paragrafo {
+    padding-right: 2em;
+    margin-top: 2em;
+  }
+  #testo {
+    margin-bottom: 2em;
+  }
+  #cardParagrafo {
+    padding: 2em;
+    padding-top: 1em;
+  }
+  main h3 {
+    font-size: 3em;
+    margin-bottom: 10px;
   }
 }
